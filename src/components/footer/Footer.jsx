@@ -27,7 +27,7 @@ function Footer() {
                     </a>
                     </div>
                 </div>
-                <div>
+                <div className="customer">
                     <h2>customers</h2>
                     <a href="https://www.quora.com/What-is-your-best-car-dealership-story" target="_blank" rel="noopener noreferrer">customer support</a>
                     <br></br>

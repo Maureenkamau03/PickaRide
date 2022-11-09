@@ -10,6 +10,14 @@ hr{
     margin-bottom: .5em;
 }
 
+.icon{
+    text-align: center;
+}
+
+.customer{
+    text-align: center;
+}
+
 .icons a img{
     padding: 2px 2px 2px 2px;
     width: 40px;
