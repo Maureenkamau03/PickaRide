@@ -28,9 +28,6 @@ function Footer() {
                     </div>
                 </div>
                 <div>
-                    <h2>Products</h2>
-                </div>
-                <div>
                     <h2>customers</h2>
                     <p>customer support</p>
                     <p>after sale services</p>

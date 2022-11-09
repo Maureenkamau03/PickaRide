@@ -1,10 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 hr{
     margin-bottom: .5em;
 }
-.icons{
-    font-size: 10px;
-    display: flex;
+
+.icons a img{
+    padding: 2px 2px 2px 2px;
+    width: 45px;
+    height: 45px;
 }
+
 .icon img:hover{
     transform: scale(1.1);
     transition: .4s;
