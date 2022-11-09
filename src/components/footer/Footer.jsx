@@ -38,7 +38,7 @@ function Footer() {
                 <h2>terms and conditions</h2>
                     <a href="https://technologyadvice.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy and Policy</a>
                     <p>All rights reserved &copy;</p>
-                    <p>CopyRight By Pickaride</p>
+                    <p className="end">CopyRight By Pickaride</p>
                 </div>
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Ngong%20Lane%20Plaza,%20Ngong%20Lane,%20Nairobi,Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><a href="https://www.embedgooglemap.net">embed maps on website</a></div></div>
             </div>

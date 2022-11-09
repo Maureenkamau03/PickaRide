@@ -33,7 +33,12 @@ hr{
 .copyright {
     text-align: center;
     margin-bottom: .5em;
-} 
+}
+
+.copyright p{
+    color: #f9004d;
+    font-size: 14px;
+}
 
 .mapouter{
     position:relative;
