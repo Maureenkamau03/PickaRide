@@ -13,28 +13,30 @@ function Footer() {
                     <h2>Our company</h2>
                     <p>Follow us on</p>
                     <div className="icons">
-                    <a href="https://www.facebook.com/ronald.beloved/" rel="noopener">
+                    <a href="https://www.facebook.com/ronald.beloved/" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/128/4401/4401395.png" alt=""/>
                     </a>
-                    <a href="insta" rel="noopener">
+                    <a href="https://www.instagram.com/ronaah_254/" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/128/4138/4138124.png" alt=""/>
                     </a>
-                    <a href="https://twitter.com/RonaahB" rel="noopener">
+                    <a href="https://twitter.com/RonaahB" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/128/2504/2504839.png" alt=""/>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCoO82bia4WfA19iLEVUX2iw" rel="noopener">
+                    <a href="https://www.youtube.com/channel/UCoO82bia4WfA19iLEVUX2iw" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt=""/>
                     </a>
                     </div>
                 </div>
                 <div>
                     <h2>customers</h2>
-                    <p>customer support</p>
-                    <p>after sale services</p>
+                    <a href="https://www.quora.com/What-is-your-best-car-dealership-story" target="_blank" rel="noopener noreferrer">customer support</a>
+                    <br></br>
+                    <br></br>
+                    <a href="https://www.quora.com/What-are-car-dealership-employees%E2%80%99-best-stories-of-crazy-customers-things-found-in-cars" target="_blank" rel="noopener noreferrer">after sales services</a>
                 </div>
                 <div className="copyright">
                 <h2>terms and conditions</h2>
-                    <p>Privacy policy </p>
+                    <a href="https://technologyadvice.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy and Policy</a>
                     <p>All rights reserved &copy;</p>
                     <p>CopyRight By Pickaride</p>
                 </div>
