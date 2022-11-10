@@ -136,5 +136,16 @@ code {
     }
 }
 .btn{
-    color: #fff;
-}
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(51, 48, 45);
+    color: rgb(243, 247, 247);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }

@@ -9,6 +9,7 @@ function App() {
 			<Contact/>
 			<About/>
 		</div>
+	
 	);
 }
 
