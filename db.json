@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "jane",
+      "email": "janekigenyi@gmail.com",
+      "phoneNumber": "0712222356",
+      "adress": "kasarani",
+      "drivinglicence": "23456",
+      "password": "25677"
+    }
+  ]
+}
