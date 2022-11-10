@@ -1,9 +1,9 @@
 import React from "react"; 
 import { Container, Row, Col } from "react-bootstrap";
+import { contactConfig } from "../content-option"
+import "../Contacts.css"
 
-export default function Contacts() {
-  
-
+ function Contacts(){
   return (
       <Container>
      
@@ -13,25 +13,27 @@ export default function Contacts() {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+        <br/>
+
         <Row className="sec_sp">
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
               <strong>Email:</strong>{" "}
-              {/* <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
-              </a> */}
+              </a> 
               <br />
               <br />
-              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
                 ""
-              )} */}
+              )}
             </address>
-            {/* <p>{contactConfig.description}</p> */}
+            <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form  className="contact__form w-100">
@@ -57,6 +59,7 @@ export default function Contacts() {
                   />
                 </Col>
               </Row>
+              <br/>
               <textarea
                 className="form-control rounded-0"
                 id="message"
@@ -79,3 +82,4 @@ export default function Contacts() {
       </Container>
   );
 }
+export default Contacts;
