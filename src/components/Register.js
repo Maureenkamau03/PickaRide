@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { NavLink } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 
 export const Register = (props) => {
     const [name, setName] = useState('');
