@@ -10,7 +10,7 @@ function Footer() {
             </div>
             <div className="footer">
                 <div className="icon">
-                    <h2>Our company</h2>
+                    <h2>Our Company</h2>
                     <p>Follow us on</p>
                     <div className="icons">
                     <a href="https://www.facebook.com/ronald.beloved/" target="_blank" rel="noopener noreferrer">
@@ -28,14 +28,14 @@ function Footer() {
                     </div>
                 </div>
                 <div className="customer">
-                    <h2>customers</h2>
-                    <a href="https://www.quora.com/What-is-your-best-car-dealership-story" target="_blank" rel="noopener noreferrer">customer support</a>
+                    <h2>Customers</h2>
+                    <a href="https://www.quora.com/What-is-your-best-car-dealership-story" target="_blank" rel="noopener noreferrer">Customer support</a>
                     <br></br>
                     <br></br>
-                    <a href="https://www.quora.com/What-are-car-dealership-employees%E2%80%99-best-stories-of-crazy-customers-things-found-in-cars" target="_blank" rel="noopener noreferrer">after sales services</a>
+                    <a href="https://www.quora.com/What-are-car-dealership-employees%E2%80%99-best-stories-of-crazy-customers-things-found-in-cars" target="_blank" rel="noopener noreferrer">After sales services</a>
                 </div>
                 <div className="copyright">
-                <h2>terms and conditions</h2>
+                <h2>Terms and Conditions</h2>
                     <a href="https://technologyadvice.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy and Policy</a>
                     <p>All rights reserved &copy;</p>
                     <p className="end">CopyRight By Pickaride</p>
