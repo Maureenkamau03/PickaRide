@@ -1,97 +1,81 @@
-import React from 'react';
- 
-function contacts(){
-    return(
-        <>
-        <div className="contact-info">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className ="col-lg-10 offset-lg-1 d-flex justify-content-between">
-                        {/*phone number*/}
-                        <div className="contact_info_item d-flex justify-content-start align center">
-                            <image src="http://img.icons8.com/office/24/000000/iphone.png" alt="phone"/>
-                            <div className='contact_info_content'>
-                                <div className='contact_info_tittle'>
-                                    phone
-                                </div>
-                                <div className='contact_info_text'>
-                                    +254468045469
-                                </div>
-                            </div>
+import React from "react"; 
+import { Container, Row, Col } from "react-bootstrap";
 
-                        </div>
-                        {/*email info*/}
-                        <div className="contact_info_item d-flex justify-content-start align center">
-                            <image src="http://img.icons8.com/office/24/000000/iphone.png" alt="phone"/>
-                            <div className='contact_info_content'>
-                                <div className='contact_info_tittle'>
-                                    Email
-                                </div>
-                                <div className='contact_info_text'>
-                                    pickaride@gmail.com
-                                </div>
-                            </div>
+export default function Contacts() {
+  
 
-                        </div>
-                         {/*address*/}
-                        <div className="contact_info_item d-flex justify-content-start align center">
-                            <image src="http://img.icons8.com/office/24/000000/iphone.png" alt="phone"/>
-                            <div className='contact_info_content'>
-                                <div className='contact_info_tittle'>
-                                    Address
-                                </div>
-                                <div className='contact_info_text'>
-                                    Nairobi,kenya
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        {/*contact us form*/}
-        <div className='contact_form'>
-           <div className='container'>
-             <div className='row'>
-                <div className='col-lg-10 offset-lg'>
-                    <div className='contact_form_container py-5'>
-                        <div className='contact_form_tittle'>
-                            Get in Touch
-                        </div>
-                        <form id="contact_form">
-                            <div className='contact_form_name d-flex justify-content-between align-items-between'>
-                                <input type="text" id="contact_form_name"
-                                   className='contact_form_name input_feild'
-                                   placeholder="Your name" required="true"/>
-
-                                 <input type="email" id="contact_form_email"
-                                   className='contact_form_email input_feild'
-                                    placeholder="Your Email" required="true"/>
-
-                                 <input type="number" id="contact_form_phone"
-                                   className='contact_form_phone input_feild'
-                                placeholder="Your Phone Number" required="true"/>
-                            </div>
-
-                            <div className='contact_form_text mt-5'>
-                                <textarea className='text_feild_contact_form_message' 
-                                placeholder='Message' cols='30' rows='10'></textarea>
-                            </div>
-
-                            <div className='contact_form_button'>
-                                <button type='submit' className='button contact_submit_button'>Send Message</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-             </div>
-            </div> 
-        </div>
-        </>
-
-    )
+  return (
+      <Container>
+     
+        <Row className="mb-5 mt-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">Contact Me</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5" className="mb-5">
+            <h3 className="color_sec py-4">Get in touch</h3>
+            <address>
+              <strong>Email:</strong>{" "}
+              {/* <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+                {contactConfig.YOUR_EMAIL}
+              </a> */}
+              <br />
+              <br />
+              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+                <p>
+                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                </p>
+              ) : (
+                ""
+              )} */}
+            </address>
+            {/* <p>{contactConfig.description}</p> */}
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <form  className="contact__form w-100">
+              <Row>
+                <Col lg="6" className="form-group">
+                  <input
+                    className="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Name" 
+                    type="text"
+                    required 
+                  />
+                </Col>
+                <Col lg="6" className="form-group">
+                  <input
+                    className="form-control rounded-0"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    type="email" 
+                    required 
+                  />
+                </Col>
+              </Row>
+              <textarea
+                className="form-control rounded-0"
+                id="message"
+                name="message"
+                placeholder="Message"
+                rows="5" 
+                required
+              ></textarea>
+              <br />
+              <Row>
+                <Col lg="12" className="form-group">
+                  <button className="btn ac_btn" type="submit"> 
+                  Send
+                  </button>
+                </Col>
+              </Row>
+            </form>
+          </Col>
+        </Row>
+      </Container>
+  );
 }
-export default contacts

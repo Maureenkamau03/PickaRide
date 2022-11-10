@@ -1,10 +1,11 @@
-import "./App.css";
-import contacts from "./Contacts";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";   
+import Contact from './Contacts.js'
 
 function App() {
 	return (
 		<div>
-			<h1>Hello World</h1>
+			<Contact/>
 		</div>
 	);
 }
