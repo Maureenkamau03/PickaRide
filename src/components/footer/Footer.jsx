@@ -17,7 +17,7 @@ function Footer() {
           </div>
         </div>
         <div className="customer">
-          <h2>Customers</h2>
+          <h2>Customers.</h2>
           <a
             href="https://www.quora.com/What-is-your-best-car-dealership-story"
             target="_blank"
