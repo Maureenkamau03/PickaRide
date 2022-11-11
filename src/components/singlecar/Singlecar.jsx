@@ -102,4 +102,4 @@ function Singlecar({
 	);
 }
 
-export default ShowTask;
+export default Singlecar;

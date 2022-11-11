@@ -47,7 +47,7 @@ function Footer() {
           <p>All rights reserved &copy;</p>
           <p className="end">CopyRight By Pickaride</p>
         </div>
-        <div class="mapouter">
+        {/* <div class="mapouter">
           <div class="gmap_canvas">
             <iframe
               width="600"
@@ -66,7 +66,7 @@ function Footer() {
             </a>
             <a href="https://www.embedgooglemap.net">embed maps on website</a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
