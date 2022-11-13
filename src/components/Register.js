@@ -12,7 +12,7 @@ export const Register = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         fetch('url', {
-      method: 'GET',
+      method: 'POST',
       users: {
         'Content-Type': 'application/json',
       },
