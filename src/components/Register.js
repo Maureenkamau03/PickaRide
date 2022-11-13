@@ -11,6 +11,18 @@ export const Register = (props) => {
     
     const handleSubmit = (e) => {
         e.preventDefault();
+        fetch('url', {
+      method: 'GET',
+      users: {
+        'Content-Type': 'application/json',
+      },
+       body: JSON.stringify(),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data)
+        
+      })
         console.log(email);
     }
 
