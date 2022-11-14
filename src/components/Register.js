@@ -13,10 +13,7 @@ export const Register = (props) => {
         e.preventDefault();
         fetch('url', {
       method: 'POST',
-      users: {
-        'Content-Type': 'application/json',
-      },
-       body: JSON.stringify(),
+      users: {},
     })
       .then((res) => res.json())
       .then((data) => {
